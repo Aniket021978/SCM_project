@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 class RECT
-{
+{ // This file is editted by aryan marwaha
+
     public:
     void area()
     {
@@ -23,7 +24,7 @@ class SHAPES : public RECT,public SQUARE
 };
 
 int main()    
-{
+{ // This file is created by aryan
     SHAPES obj;
    //doing edit number 2
     obj.RECT::area(); 
